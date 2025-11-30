@@ -44,7 +44,7 @@ $list = $user->getAllUsers();
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
-        <img src="img/logo.png" alt="logo" width="140" height="70">
+        <img src="../images/logov2.png" style="margin-left: 20px; margin-top:16px;" alt="logo" width="50" height="50">
         <ul>
             <li><a href="customerlist.php" class="active">Quản lý Người dùng</a></li>
             <li><a href="reviewlist.php">Quản lý phản hồi</a></li>

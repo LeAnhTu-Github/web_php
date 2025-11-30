@@ -1,6 +1,9 @@
-
+<?php
+// Ensure $totalQty is defined
+$totalQty = isset($totalQty) ? $totalQty : ['total' => 0];
+?>
 <nav>
-    <img src="images/logo.png" alt="logo" width="140" height="70">
+    <img src="images/logov2.png" alt="logo" width="50" height="50">
     <ul>
         <li><a href="index.php" class="active">Trang chủ</a></li>
         <li><a href="productList.php">Sản phẩm</a></li>
@@ -19,7 +22,7 @@
             <a href="checkout.php">
                 <i class="fa fa-shopping-bag"></i>
                 <span class="sumItem">
-                    <?= ($totalQty['total']) ? $totalQty['total'] : "0" ?>
+                    <?= isset($totalQty) ? ($totalQty['total'] ? $totalQty['total'] : "0") : "0" ?>    
                 </span>
             </a>
         </li>

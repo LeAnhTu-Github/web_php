@@ -29,7 +29,7 @@ if ($role_id == 1) {
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
-        <img src="img/logo.png" alt="logo" width="140" height="70">
+        <img src="../images/logov2.png" style="margin-left: 20px; margin-top:16px;" alt="logo" width="50" height="50">
         <ul>
             <li><a href="productlist.php" class="active">Quản lý Sản phẩm</a></li>
             <li><a href="orderlist.php" id="order">Quản lý Đơn hàng</a></li>
