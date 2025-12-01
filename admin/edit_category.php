@@ -45,13 +45,12 @@ if ($role_id == 1) {
         </label>
         <img src="../images/logov2.png" style="margin-left: 20px; margin-top:16px;" alt="logo" width="50" height="50">
         <ul>
-        <ul>
             <li><a href="customerlist.php">Quản lý người dùng</a></li>
             <li><a href="reviewlist.php">Quản lý phản hồi</a></li>
             <li><a href="productlist.php">Quản lý sản phẩm</a></li>
             <li><a href="categoriesList.php" class="active">Danh mục sản phẩm</a></li>
             <li><a href="orderlist.php">Quản lý đơn hàng</a></li>
-        </ul>
+            <li><a href="logout.php">Đăng xuất</a></li>
         </ul>
     </nav>
     <div class="title">

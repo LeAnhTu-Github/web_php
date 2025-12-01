@@ -34,7 +34,6 @@ $categoriesList = $category->getAll();
 
 <body>
     <nav>
-       
         <img src="../images/logov2.png" style="margin-left: 20px; margin-top:16px;" alt="logo" width="50" height="50">
         <ul>
             <li><a href="customerlist.php">Quản lý người dùng</a></li>
@@ -42,6 +41,7 @@ $categoriesList = $category->getAll();
             <li><a href="productlist.php" class="active">Quản lý sản phẩm</a></li>
             <li><a href="categoriesList.php">Danh mục sản phẩm</a></li>
             <li><a href="orderlist.php">Quản lý đơn hàng</a></li>
+            <li><a href="logout.php">Đăng xuất</a></li>
         </ul>
     </nav>
     

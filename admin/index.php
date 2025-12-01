@@ -33,6 +33,7 @@ if ($role_id == 1) {
         <ul>
             <li><a href="productlist.php" class="active">Quản lý Sản phẩm</a></li>
             <li><a href="orderlist.php" id="order">Quản lý Đơn hàng</a></li>
+            <li><a href="logout.php">Đăng xuất</a></li>
         </ul>
     </nav>
     <?php include '../inc/footer.php'; ?>

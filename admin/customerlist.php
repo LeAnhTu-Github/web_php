@@ -51,6 +51,7 @@ $list = $user->getAllUsers();
             <li><a href="productlist.php">Quản lý Sản phẩm</a></li>
             <li><a href="categoriesList.php">Danh mục sản phẩm</a></li>
             <li><a href="orderlist.php">Quản lý Đơn hàng</a></li>
+            <li><a href="logout.php">Đăng xuất</a></li>
         </ul>
     </nav>
     <div class="title" style="margin-top: 80px;"> <!-- Adjusted margin-top to ensure the title is not hidden -->
